@@ -73,7 +73,6 @@ function userChoice() {
 }
 
 function computerChoice(randomNum) {
-    //show computer choice
   if (randomNum == "1") {
     player2.addEventListener("animationend", function () {
         player2.classList.remove("shake");
